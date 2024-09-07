@@ -39,3 +39,4 @@ next-env.d.ts
 .wrangler
 .dev.vars
 package-lock.json
+bun.lockb
