@@ -22,6 +22,7 @@ export default function Home() {
       <div className="items-center text-center">
         <div className="text-lg mt-2">
           <h1 className="text-4xl font-bold">Discord Status Profile</h1>
+          <p className="text-gray-500">Join <a href="https://discord.gg/s3j5vphByS" className="text-blue-500">Discord</a> to use it</p>
           <p className="text-gray-500 mb-6">Display your Discord Presence in your GitHub Profile</p>
         </div>
         <div className="flex w-full max-w-sm items-center space-x-2">
