@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
     headers.set("Content-Type", "image/svg+xml; charset=utf-8");
     headers.set("content-security-policy", "default-src 'none'; img-src * data:; style-src 'unsafe-inline'");
     const svgContent = RenderCard({ user });
-    return new NextResponse(svgContent, { headers });
+    return new NextResponse(svgContent.toString(), { headers });
   } catch (error) {
     console.error(error);
     return NextResponse.json({ user: null }, { status: 500 });
