@@ -12,6 +12,9 @@
 ## Supports
 - API Discord User: [Masuru](https://github.com/Masuru-Project)
 
+## Image
+![svg](https://discord-status-profile.vercel.app/users?id=1236579719177306173)
+
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=EwarinDev/DiscordStatusProfile&type=Date)](https://star-history.com/#EwarinDev/DiscordStatusProfile&Date)
 
