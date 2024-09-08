@@ -46,7 +46,7 @@ export function RenderCard({ user }: { user: IDiscordData }) {
     <!-- Use the clip-path for the profile image -->
     <image class="profile-pic" x="22" y="10" href="${encodeURL(`https://cdn.discordapp.com/avatars/${user.discord_user.id}/${user.discord_user.avatar}.webp`)}" clip-path="url(#circleClip)" />
     
-    <text class="name" x="82" y="28">${user.discord_user.global_name}</text>
+    <text class="name" x="82" y="28">${user.discord_user.global_name || user.discord_user.username}</text>
     <text class="username" x="82" y="52">${user.discord_user.username}</text>
     <line class="divider" x1="20" y1="66" x2="420" y2="66" />
     <text class="activity-label" x="20" y="90">Activity</text>
