@@ -1,3 +1,4 @@
+"use client";
 import { IDiscordData } from "@/types";
 import { useState, useEffect } from 'react';
 
