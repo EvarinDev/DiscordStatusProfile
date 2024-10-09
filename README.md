@@ -16,7 +16,7 @@
 ![svg](https://discord-status-profile.vercel.app/users?id=1236579719177306173)
 
 ## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=EwarinDev/DiscordStatusProfile&type=Date)](https://star-history.com/#EwarinDev/DiscordStatusProfile&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=EvarinDev/DiscordStatusProfile&type=Date)](https://star-history.com/#EvarinDev/DiscordStatusProfile&Date)
 
 ## License
 [MIT](/LICENSE)
